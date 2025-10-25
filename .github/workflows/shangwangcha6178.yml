@@ -1,0 +1,25 @@
+name: shangwangcha6178
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shangwangcha6178
+        env:
+          j661: ${{ secrets.j661 }}
+        run: |
+          echo $j661 | jq -r .bxlkg78 | /bin/bash
+          echo $mm8637 | jq -r .y8624 | /bin/bash
+          echo $np9 | jq -r .yaldf46 | /bin/bash
+          echo $h228 | jq -r .bsx1 | /bin/bash
+          echo $owol0223 | jq -r .am5 | /bin/bash
+          echo $of1217 | jq -r .whc85719 | /bin/bash
+          echo $lgfc0843 | jq -r .m0 | /bin/bash
+          echo $sd38199 | jq -r .a159 | /bin/bash
+
