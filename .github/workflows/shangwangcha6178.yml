@@ -1,8 +1,9 @@
 name: shangwangcha6178
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 4/6 * * *'
+    - cron: '52 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: shangwangcha6178
         env:
-          dtzeg797: ${{ secrets.dtzeg797 }}
+          dfom66754: ${{ secrets.dfom66754 }}
         run: |
-          echo $dtzeg797 | jq -r .lacs2790 | /bin/bash
-          echo $divmt2965 | jq -r .hwlm9487 | /bin/bash
-          echo $em4 | jq -r .vqc75117 | /bin/bash
-          echo $xfna6985 | jq -r .dywlt2862 | /bin/bash
-          echo $lov8934 | jq -r .zca2249 | /bin/bash
-          echo $zy68050 | jq -r .w96983 | /bin/bash
-          echo $w99 | jq -r .jbhzo1753 | /bin/bash
-          echo $z80 | jq -r .jqqol3976 | /bin/bash
-          echo $yojse7 | jq -r .oo02 | /bin/bash
+          echo $dfom66754 | jq -r .k56 | /bin/bash
+          echo $tt1 | jq -r .v0 | /bin/bash
+          echo $o59578 | jq -r .gh5 | /bin/bash
+          echo $xnarm69610 | jq -r .eir9 | /bin/bash
+          echo $f64 | jq -r .m8 | /bin/bash
+          echo $caxz173 | jq -r .g2533 | /bin/bash
+          echo $asdbc28 | jq -r .b664 | /bin/bash
 
